@@ -1,0 +1,41 @@
+"""损伤协同板 — damage coordination board for RelayGrid."""
+
+from .board import (
+    AffectedEquipment,
+    ConfidenceChange,
+    DamageBoard,
+    DamageEvent,
+    DuplicateDispatchError,
+    FaultIndicatorObservation,
+    FieldReport,
+    MergeError,
+    MergeResult,
+    PhotoMetadata,
+    SplitError,
+    SplitResult,
+    StormCellObservation,
+    WorkOrder,
+    fuse_confidences,
+    point_key,
+    record_evidence,
+)
+
+__all__ = [
+    "AffectedEquipment",
+    "ConfidenceChange",
+    "DamageBoard",
+    "DamageEvent",
+    "DuplicateDispatchError",
+    "FaultIndicatorObservation",
+    "FieldReport",
+    "MergeError",
+    "MergeResult",
+    "PhotoMetadata",
+    "SplitError",
+    "SplitResult",
+    "StormCellObservation",
+    "WorkOrder",
+    "fuse_confidences",
+    "point_key",
+    "record_evidence",
+]
